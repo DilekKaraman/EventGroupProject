@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88150f3-e685-43e9-9500-e66c7325530b" name="Changes" comment="Utilities Package">
+    <list default="true" id="f88150f3-e685-43e9-9500-e66c7325530b" name="Changes" comment="CukesRunner added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bleucrm/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bleucrm/runners/CukesRunner.java" afterDir="false" />
     </list>
@@ -88,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656757129495</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="CukesRunner added">
+      <created>1656758670603</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656758670603</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +112,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Utilities Package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Utilities Package" />
+    <MESSAGE value="CukesRunner added" />
+    <option name="LAST_COMMIT_MESSAGE" value="CukesRunner added" />
   </component>
 </project>
