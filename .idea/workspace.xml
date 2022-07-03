@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88150f3-e685-43e9-9500-e66c7325530b" name="Changes" comment="CukesRunner added">
+    <list default="true" id="f88150f3-e685-43e9-9500-e66c7325530b" name="Changes" comment="json plugin added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bleucrm/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bleucrm/pages/EvenTabPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bleucrm/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bleucrm/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bleucrm/step_definitions/EventStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bleucrm/step_definitions/EventStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/eventtabtest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/eventtabtest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/eventtabtest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/eventtabtest.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +63,28 @@
       <recent name="com.bleucrm.utilities" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EventGroupProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bleucrm.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bleucrm.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.bleucrm.runners.CukesRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CukesRunner" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -95,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656758670603</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="json plugin added">
+      <created>1656759441556</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656759441556</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +147,7 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Utilities Package" />
     <MESSAGE value="CukesRunner added" />
-    <option name="LAST_COMMIT_MESSAGE" value="CukesRunner added" />
+    <MESSAGE value="json plugin added" />
+    <option name="LAST_COMMIT_MESSAGE" value="json plugin added" />
   </component>
 </project>
