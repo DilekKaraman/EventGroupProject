@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88150f3-e685-43e9-9500-e66c7325530b" name="Changes" comment="json plugin added">
+    <list default="true" id="f88150f3-e685-43e9-9500-e66c7325530b" name="Changes" comment="hooks and failedtestrunner added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bleucrm/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bleucrm/pages/EvenTabPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bleucrm/pages/EvenTabPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bleucrm/pages/EvenTabPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bleucrm/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bleucrm/runners/CukesRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bleucrm/step_definitions/EventStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bleucrm/step_definitions/EventStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/eventtabtest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/eventtabtest.feature" afterDir="false" />
@@ -60,6 +59,7 @@
       <recent name="$PROJECT_DIR$/src/test/java/com/bleucrm/utilities" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bleucrm.runners" />
       <recent name="com.bleucrm.utilities" />
     </key>
   </component>
@@ -129,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656759441556</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="hooks and failedtestrunner added">
+      <created>1656881134868</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656881134868</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,6 +155,7 @@
     <MESSAGE value="Utilities Package" />
     <MESSAGE value="CukesRunner added" />
     <MESSAGE value="json plugin added" />
-    <option name="LAST_COMMIT_MESSAGE" value="json plugin added" />
+    <MESSAGE value="hooks and failedtestrunner added" />
+    <option name="LAST_COMMIT_MESSAGE" value="hooks and failedtestrunner added" />
   </component>
 </project>

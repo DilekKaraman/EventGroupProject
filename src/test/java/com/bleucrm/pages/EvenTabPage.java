@@ -35,61 +35,17 @@ public class EvenTabPage {
     @FindBy(id="feed-cal-event-fromcal_3Jcl")
     public WebElement startdatebox;
 
-    @FindBy(xpath ="//a[.='2022']")
-    public WebElement startyear;
-
-
-    @FindBy(xpath ="//span[.='2023']")
-    public List<WebElement> selectyear;
-
-    @FindBy(xpath ="//a[.='July']")
-    public WebElement startmonth;
-
-    @FindBy(xpath ="//span[.='September']")
-    public List<WebElement> selectmonth;
-
-    @FindBy(xpath ="//a[.='11']")
-    public WebElement startday;
-
     @FindBy(id="feed_cal_event_from_timecal_3Jcl")
     public WebElement starttime;
-
-    @FindBy(xpath = "//input[@type='text']")
-    public WebElement starthour;
-
-
-    @FindBy(xpath = "//td[title='Increase (Up)']")
-    public WebElement startmin;
-
-    @FindBy(xpath = "//input[@value='Set Time']")
-    public WebElement setTime;
-
 
     @FindBy(id="feed-cal-event-tocal_3Jcl")
     public WebElement enddatebox;
 
-    @FindBy(xpath ="//a[@class='bx-calendar-top-month']")
-    public WebElement endmonth;
-
-    @FindBy(xpath ="//span[.='September']")
-    public List<WebElement> selectendmonth;
-
-    @FindBy(xpath ="//a[@class='bx-calendar-top-year']")
-    public WebElement endyear;
+    @FindBy(xpath = "//input[@id='feed_cal_event_to_timecal_3Jcl']")
+    public WebElement endtime;
 
 
-    @FindBy(xpath ="//span[.='2023']")
-    public List<WebElement> selectendyear;
-
-
-
-    @FindBy(xpath ="//a[.='28']")
-    public WebElement endday;
-
-    @FindBy(xpath = "//input[@value='Set Time'][1]")
-    public WebElement endsetTime;
-
-    @FindBy(xpath = "//span[@name='EVENT_FULL_DAY']")
+    @FindBy(id="event-full-daycal_3Jcl")
     public WebElement allday;
 
     @FindBy(xpath="//span[@class='feed-ev-tz-open']")
@@ -100,5 +56,65 @@ public class EvenTabPage {
 
     @FindBy(id="feed-cal-tz-tocal_3Jcl")
     public WebElement tozone;
+
+    @FindBy(id="event-remind_countcal_3Jcl")
+    public WebElement remindertime;
+
+    @FindBy(id="event-remind_typecal_3Jcl")
+    public WebElement timetype;
+
+    @FindBy(id="event-locationcal_3Jcl")
+    public WebElement location;
+    /*second way
+public void chooseLocation(String location) {
+        int numOfLocator = 0;
+        switch (location) {
+            case "Central Meeting Room":
+                numOfLocator = 1;
+                break;
+            case "East Meeting Room":
+                numOfLocator = 2;
+                break;
+            case "West Meeting Room":
+                numOfLocator = 3;
+                break;
+        }
+        String locator = "//div[@class='bxecpl-loc-popup calendar-inp calendar-inp-time calendar-inp-loc']/div["+numOfLocator+"]";
+        Driver.get().findElement(By.xpath(locator)).click();
+    }
+     */
+
+    @FindBy(id="feed-event-dest-cont")
+    public WebElement addPersonGroupDepartmentBox;
+
+    @FindBy(id="calnAJEM3_last_U693")
+    public WebElement person;
+
+    @FindBy(xpath = "//div[@class='bx-finder-box-item-t7-name']")
+    public WebElement group;
+
+    @FindBy(id="destDepartmentTab_calnAJEM3")
+    public WebElement department;
+
+    @FindBy(xpath = "//div[.='hr2@cybertekschool.com']")
+    public WebElement hrdepartment;
+
+    @FindBy(xpath = "//span[@class='popup-window-close-icon']")
+    public WebElement closedepartment;
+
+    @FindBy(xpath= "//span[@class='feed-event-destination-text']")
+    public WebElement checkperson;
+
+    @FindBy(id="feed-cal-event-namecal_3Jcl")
+    public WebElement eventName;
+
+    @FindBy(id="blog-submit-button-save")
+    public WebElement sendButton;
+
+    @FindBy(id="blog-submit-button-cancel")
+    public WebElement canselbutton;
+
+
+
 
 }
